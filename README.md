@@ -22,19 +22,21 @@ When passing no flags, all services will be run.
 
 To run only one service or a combination of services, you can use the following flags: -m = Mongodb, -p = Postgres, -r = Redis.
 
-Run only Mongodb
+#### Run only Mongodb
 
 ```sh
 ./db.sh -m
 ```
 
-Run only Postgres
+#### Run only Postgres
+
+Pgadmin is also run with postgres. You can access it on `http://localhost:5050`, credentials are in the `docker-compose.yaml` file.
 
 ```sh
 ./db.sh -p
 ```
 
-Run only Redis
+#### Run only Redis
 
 ```sh
 ./db.sh -r
@@ -42,19 +44,19 @@ Run only Redis
 
 And of course we can combine them:
 
-Run Mongodb + Redis
+#### Run Mongodb + Redis
 
 ```sh
 ./db.sh -mr
 ```
 
-Run Postgres + Redis
+#### Run Postgres + Redis
 
 ```sh
 ./db.sh -pr
 ```
 
-Shut down services
+#### Shut down services
 
 ```sh
 ./db.sh -d
