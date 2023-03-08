@@ -1,4 +1,4 @@
-# Database for local development
+# Databases for local development
 
 This is a small scipt that runs some databases for local development in docker. I created it just to have a quick way to run some databases and switch among them.
 
