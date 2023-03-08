@@ -1,6 +1,6 @@
 # Database for local development
 
-This is a small scipt that run some databases for local development in docker. I created it just to have a quick way to run some databases and switch among them.
+This is a small scipt that runs some databases for local development in docker. I created it just to have a quick way to run some databases and switch among them.
 
 ## How to use
 
@@ -34,11 +34,13 @@ Run only Postgres
 ./db.sh -p
 ```
 
-RUn only Redis
+Run only Redis
 
 ```sh
 ./db.sh -r
 ```
+
+And of course we can combine them:
 
 Run Mongodb + Redis
 
